@@ -16,8 +16,8 @@
     </header>
 
     <main id="maincontent">
-        <section id="map-container">
-            <div id="map"></div>
+        <section id="map-container" role="presentation" aria-hidden="true">
+            <div id="map" role="application" aria-hidden="true"></div>
         </section>
         <section>
             <div class="filter-options">
@@ -39,7 +39,7 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw5Kq9-aGflF5ub-hw7PHcCSdmPQ6ANfA&libraries=places&callback=initMap"></script>
 
 
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
         <div>Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.</div>
     </footer>
 </body>
